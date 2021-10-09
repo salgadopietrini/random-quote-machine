@@ -1,0 +1,79 @@
+body {
+  margin: 0;
+}
+
+.body {
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.citeBox {
+  margin: 0;
+  border: solid 2px;
+  width: 60vh;
+  height: fit-content;
+  background-color: white;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 2.5%;
+  padding-bottom: 2.5%;
+  -webkit-box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000,
+    5px 5px 15px 5px rgba(0, 0, 0, 0);
+  box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000,
+    5px 5px 15px 5px rgba(0, 0, 0, 0);
+}
+.mainVerse {
+  font-family: "Open Sans Condensed", sans-serif;
+  font-size: 50px;
+  margin-bottom: 12px;
+}
+
+.cite {
+  font-family: "Bebas Neue", cursive;
+  font-size: 30px;
+  text-align: right;
+  margin-bottom: 12px;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.buttonBox {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+}
+.button {
+  font-family: "Lato", sans-serif;
+  font-size: 20px;
+  height: 50px;
+  width: 200px;
+  background-color: white;
+  padding: 3px;
+  border: 2px solid;
+  text-shadow: 0px 0px 0px transparent;
+}
+.button2 {
+  font-family: "Lato", sans-serif;
+  font-size: 20px;
+  height: 50px;
+  width: 50px;
+  background-color: white;
+  padding: 3px;
+  border: 2px solid;
+  text-shadow: 0px 0px 0px transparent;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: black;
+  color: white;
+}
+
+button:hover a {
+  color: white;
+}
